@@ -21,7 +21,7 @@ pre {
 code {
     counter-increment: line;
     margin-right: 0px;
-    font-family: 'FiraMono';
+    font-family: 'synFont';
     font-size: small;
     -webkit-user-select: none;
 }
