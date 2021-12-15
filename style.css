@@ -1,0 +1,130 @@
+/*html {
+    min-width: 1920px;
+    min-height: 1080px;
+}*/
+
+body {
+    /*width: 1920px;
+    height: 1080px;*/
+    background-color: #282c34;
+    color: #abb2bf;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid transparent;
+}
+
+pre {
+    counter-reset: line;
+    padding: 0px;
+}
+
+code {
+    counter-increment: line;
+    margin-right: 0px;
+    font-family: 'Fira Mono';
+    font-size: small;
+    -webkit-user-select: none;
+}
+
+code:before {
+    background: #282c34;
+    content: counter(line)" ";
+    color: #737984;
+    width: 20px;
+    margin-left: 0px;
+    padding-left: 12px;
+    -webkit-user-select: none;
+}
+
+/* TOOLTIPS */
+.firstfutsal {
+    display: inline;
+}
+
+.firstfutsal .fftt {
+    z-index: 99999999;
+    visibility: hidden;
+  background-color: #1e2227;
+  border-radius:6px;
+  color: #abb2bf;
+  text-align: center;
+  border-radius: 6px;
+  margin: 5px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 9999;
+  opacity: 0;
+  transition: opacity 0.5s;
+
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+  padding-bottom: 7.5px;
+  padding-top: 7.5px;
+  -webkit-user-select: none;
+}
+
+.firstfutsal:hover .fftt {
+    visibility: visible;
+    opacity: 1;
+}
+
+.firstfutsal:not(hover) .fftt {
+    visibility: hidden;
+    opacity: 0;
+}
+/*
+
+    <div id="overlay">
+        <div id="text">
+            <font color="#56b6c2">Made by Taylor Miles G. Belen</font>
+        </div>
+    </div>
+#overlay {
+    position: relative;
+}
+
+#text {
+    background: #22252c;
+    opacity: 0.9;
+    position: fixed;
+    z-index: 99;
+    bottom: 0px;
+    padding: 4px;
+    border-top-left-radius: 9px;
+    left: 84%;
+    white-space: nowrap;
+    height: 10px;
+    font-size: 12px;
+    font-family: 'Fira Mono';
+    -webkit-user-select: none;
+}
+*/
+
+
+/* SCROLL BAR */
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #22252c;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-corner {
+    background: #282c34;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4c5363;
+    border-radius: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #5e677a;
+}
