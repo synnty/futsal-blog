@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'FiraMono';
-    src: url("FiraMono.ttf") format('truetype');
+    src: url(./FiraMono.ttf);
     font-weight: normal;
     font-style: normal;
 }
