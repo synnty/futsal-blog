@@ -3,6 +3,13 @@
     min-height: 1080px;
 }*/
 
+@font-face {
+    font-family: 'Fira Mono';
+    src: url("./FiraMono.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
 body {
     /*width: 1920px;
     height: 1080px;*/
