@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'FiraMono';
-    src: url("../futsal-blog/FiraMono.ttf");
+    src: url("../futsal-blog/FiraMono.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
 }
