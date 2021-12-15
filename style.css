@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'Fira Mono';
-    src: url("./FiraMono.ttf") format('truetype');
+    src: url("../FiraMono.ttf") format('truetype');
     font-weight: bold;
     font-style: normal;
 }
