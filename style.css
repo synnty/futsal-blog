@@ -20,6 +20,10 @@ body {
 pre {
     counter-reset: line;
     padding: 0px;
+    
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
 
 code {
