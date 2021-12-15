@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'FiraMono';
+    font-family: 'synFont';
     src: url('{{ site.url }/FiraMono.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
