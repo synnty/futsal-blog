@@ -18,8 +18,8 @@ body {
 pre {
     counter-reset: line;
     padding: 0px;
-    overflow-wrap: break-word;
-    white-space: pre-wrap;
+    /*overflow-wrap: break-word; */
+    white-space: pre-wrap; word-break: keep-all;
 }
 
 code {
