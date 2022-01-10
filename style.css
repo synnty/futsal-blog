@@ -19,6 +19,7 @@ pre {
     counter-reset: line;
     padding: 0px;
     overflow-wrap: break-word;
+    white-space: pre-wrap;
 }
 
 code {
