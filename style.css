@@ -18,8 +18,8 @@ body {
 pre {
     counter-reset: line;
     padding: 0px;
-    /*overflow-wrap: break-word; */
-    white-space: pre-wrap; word-break: keep-all;
+    /*overflow-wrap: break-word; 
+    white-space: pre-wrap; word-break: keep-all;*/
 }
 
 code {
@@ -28,6 +28,7 @@ code {
     font-family: 'synFont';
     font-size: small;
     -webkit-user-select: none;
+    white-space: pre-wrap;
 }
 
 code:before {
