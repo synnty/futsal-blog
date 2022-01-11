@@ -70,6 +70,42 @@ code:before {
   -webkit-user-select: none;
 }
 
+.firstfutsal .ffll {
+    z-index: 99999999;
+    visibility: hidden;
+  background-color: #1e2227;
+  border-radius:6px;
+  color: #abb2bf;
+  text-align: center;
+  border-radius: 6px;
+  margin: 5px;
+ 
+  /* Position the tooltip text - see examples below! */
+  top: -5px;
+  right: 105%;
+  position: absolute;
+  clear: left;
+  z-index: 9999;
+  opacity: 0;
+  transition: opacity 0.5s;
+
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+  padding-bottom: 7.5px;
+  padding-top: 7.5px;
+  -webkit-user-select: none;
+}
+
+.firstfutsal:hover .ffll {
+    visibility: visible;
+    opacity: 1;
+}
+
+.firstfutsal:not(hover) .ffll {
+    visibility: hidden;
+    opacity: 0;
+}
+
 .firstfutsal:hover .fftt {
     visibility: visible;
     opacity: 1;
