@@ -80,6 +80,10 @@ code:before {
   border-radius: 6px;
   margin: 5px;
  font-size: 11px;
+
+ text-align: left;
+ width: 450px;
+ white-space: pre-line;
   /* Position the tooltip text - see examples below! */
   right: 40.5%;
   position: absolute;
@@ -91,10 +95,6 @@ code:before {
   padding-bottom: 7.5px;
   padding-top: 7.5px;
   -webkit-user-select: none;
-  
-  text-align: left;
-  width: 450px;
-  white-space: pre-line;
 }
 
 .firstfutsal:hover .ffll {
