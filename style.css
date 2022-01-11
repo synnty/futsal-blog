@@ -81,11 +81,8 @@ code:before {
   margin: 5px;
  
   /* Position the tooltip text - see examples below! */
-  top: -5px;
-  right: 105%;
+  right: 40.5%;
   position: absolute;
-  clear: left;
-  z-index: 9999;
   opacity: 0;
   transition: opacity 0.5s;
 
