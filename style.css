@@ -101,11 +101,6 @@ code:before {
     opacity: 1;
 }
 
-.firstfutsal:not(hover) .ffll {
-    visibility: hidden;
-    opacity: 0;
-}
-
 .firstfutsal:hover .fftt {
     visibility: visible;
     opacity: 1;
