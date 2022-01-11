@@ -76,10 +76,10 @@ code:before {
   background-color: #1e2227;
   border-radius:6px;
   color: #abb2bf;
-  text-align: center;
+  text-align: left;
   border-radius: 6px;
   margin: 5px;
- 
+ font-size: 11px;
   /* Position the tooltip text - see examples below! */
   right: 40.5%;
   position: absolute;
